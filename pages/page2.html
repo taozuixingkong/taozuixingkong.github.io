@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- !快速生成架构代码 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>体验css语法规范</title>
+    <style>
+        /* 标签选择器 */
+        
+        p {
+            color: red;
+            font-size: 12px;
+        }
+        /* 类选择器 */
+        
+        .red {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        
+        .green {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        
+        .font35 {
+            font-size: 35px;
+        }
+        /* id选择器  id只能调用一次*/
+        
+        #pink {
+            color: pink;
+        }
+        /* 通配符选择器 所有标签修改样式 */
+        
+        * {
+            color: #000;
+        }
+        /* 后代选择器 空格隔开*/
+        
+        ol li {
+            color: greenyellow;
+        }
+        /* 子元素选择器 >号 */
+        
+        ul>li {
+            color: lavender;
+        }
+        /* 并集选择器 ,号隔开 竖着写 */
+        
+        div,
+        ol {
+            background-color: grey;
+        }
+        /* 伪类选择器 */
+        
+        input:focus {
+            background-color: hotpink;
+        }
+        /* 元素模式转换 display  行转换为块 display:block 块转换为行内元素 display:inline*/
+        /* 转换为行内块元素 display:inline-block */
+        
+        .da {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            text-align: center;
+            border: 1px solid yellow;
+        }
+        
+        .xiao {
+            margin-top: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>第二个页面</h1>
+    <p>第二个页面</p>
+    <div class="red">红色</div>
+    <div class="green">绿色</div>
+    <div class="red">红色</div>
+    <div class="red font35">刘德华</div>
+    <div></div>
+    <div class="demo"></div>
+    <div class="3"></div>
+    <div>fdfdf</div>
+    <div></div>
+    <div></div>
+    <div class="hehe"></div>
+    <div class="hehe"></div>
+    <div class="hehe"></div>
+    <div>
+        <h></h>
+    </div>
+    <div></div>
+    <p></p>
+    <div class="div15"></div>
+    <ol>
+        <li>ffff</li>
+        <li>ffff</li>
+        <li>ffff</li>
+        <li>ffff</li>
+    </ol>
+    <ul>
+        <li>eee</li>
+        <li>eee</li>
+        <li>eee</li>
+        <li>eee</li>
+        <li>eee</li>
+    </ul>
+    <div class="div13"></div>
+    <div class="d"></div>
+    <div15></div15>
+    <input class="demo"></input>
+    <input class="demo"></input>
+    <input class="demo"></input>
+    <input class="demo"></input>
+    <div class="da">
+        <div class="xiao">
+            <ul>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
